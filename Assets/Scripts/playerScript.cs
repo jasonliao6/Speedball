@@ -26,7 +26,7 @@ public class playerScript : MonoBehaviour
             transform.position = Vector3.Lerp(transform.position, new Vector3(leftPosition.transform.position.x, transform.position.y, transform.position.z), 10f * Time.deltaTime);
         }
 
-        if(Input.GetMouseButtonDown(0)){
+        if(Input.GetKeyDown(KeyCode.Space)){
 
             startGame = true;
 
